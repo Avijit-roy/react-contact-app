@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import Header from "./Header.js";
-import Footer from "./Footer.js";
 import AddContact from "./AddContact.js";
 import ContactList from "./ContactList.js";
 import ContactDetail from "./ContactDetail.js";
@@ -80,7 +79,6 @@ function App() {
             }
           />
         </Routes>
-        <Footer />
       </Router>
     </div>
   );
