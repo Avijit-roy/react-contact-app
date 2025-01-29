@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "id": "2a7c1632-fb08-4a97-8be4-4ba1cda5fd38",
+      "name": "SahaRoy",
+      "email": "saha@nnjksjd.com"
+    },
+    {
+      "id": "0de524d2-5431-46b3-972a-61082be40e4e",
+      "name": "test78",
+      "email": "test78@gmail.com"
+    },
+    {
+      "id": "ff129259-7e14-4b04-9b2c-7b5cee43e87a",
+      "name": "max",
+      "email": "max@gmail.com"
+    },
+    {
+      "id": "ea76e41b-5a32-4985-ac56-2cffbe6f01b5",
+      "name": "Rabi",
+      "email": "Rabi@gmsil.com"
+    },
+    {
+      "id": "3cfbb371-0b1e-43c3-9fe7-67a9aa5fa755",
+      "name": "Sonu",
+      "email": "sonu@gmail.com"
+    },
+    {
+      "id": "c0fc83d8-4537-43d6-8504-0e6459c67da6",
+      "name": "Poulomi",
+      "email": "Poulomi@gmail.com"
+    },
+    {
+      "id": "fffecc92-4d4d-434f-a5c5-9d4defc2d489",
+      "name": "Nibedita",
+      "email": "Nibedita@gmail.com"
+    }
+  ]
+}
