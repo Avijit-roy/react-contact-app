@@ -2,7 +2,7 @@
 
 A simple, responsive contact management application built with React. This project provides a clean interface to add, view, edit, and delete contacts. It's designed as a starter app you can extend (connect a backend, add authentication, etc.).
 
-> Note: This README was generated and committed via GitHub Copilot Chat Assistant. If you want it tailored to the exact implementation (state management, storage method, exact commands, demo link, screenshots, or license), tell me and I’ll update it.
+> Note: This README was generated and updated via GitHub Copilot Chat Assistant. If you want it tailored to the exact implementation (state management, storage method, exact commands, demo link, screenshots, or license), tell me and I’ll update it.
 
 ## Features
 - Add new contacts (name, phone, email, and optional notes)
@@ -50,15 +50,29 @@ Add a link to a live demo here once available (GitHub Pages, Netlify, Vercel, et
 
 Adjust script names if your project uses a different setup.
 
-## Project structure (example)
-Replace or update to match actual repository layout.
-- public/ — static files and index.html
-- src/
-  - components/ — UI components (ContactList, ContactForm, ContactItem, SearchBar, etc.)
-  - pages/ — app pages (if using routing)
-  - styles/ — CSS files
-  - App.js — root component
-  - index.js — app entry point
+## Project structure
+Below is the expected project structure. Update this section if your repository layout differs.
+
+react-contact-app/
+- README.md
+- LICENSE
+- package.json
+- .gitignore
+- contact-app/ — React app (Create React App scaffold)
+  - package.json
+  - public/
+    - index.html
+    - favicon.ico
+  - src/
+    - index.js
+    - App.js
+    - components/ — UI components (ContactList, ContactForm, ContactItem, SearchBar, etc.)
+    - pages/ — optional pages if using routing
+    - styles/ — CSS or SCSS files
+- server-api/ — optional backend API (if present)
+- node_modules/
+
+If the actual repository structure differs, replace this section with the real layout.
 
 ## Data persistence
 If the app uses localStorage to persist contacts, mention that here. If it uses an API/backend, add instructions on configuring the API endpoint and any required environment variables.
@@ -85,12 +99,7 @@ Please include tests and update README/documentation for any significant changes
 Open an issue in the repo to report bugs or request features. Provide steps to reproduce and, if possible, screenshots or logs.
 
 ## License
-No license specified. If you want an open-source license, common choices:
-- MIT — permissive, short and simple
-- Apache-2.0 — permissive with patent protection
-- GPL-3.0 — copyleft
-
-Add a LICENSE file to the repo and update this section accordingly.
+This project is licensed under the MIT License — see the LICENSE file for details.
 
 ## Contact
 Maintained by Avijit-roy. For questions or feedback, open an issue or contact the maintainer via their GitHub profile.
